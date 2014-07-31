@@ -15,3 +15,8 @@ config/*
 #  execute anonymous functionality, while keeping named scripts
 apex-scripts/* 
 !apex-scripts/*.cls
+
+
+#Other exclusions
+*.pem
+
