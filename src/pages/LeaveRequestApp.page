@@ -1,0 +1,28 @@
+<apex:page showHeader="false" 
+            sidebar="false" 
+            standardStylesheets="false" 
+            docType="html-5.0">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="{!URLFOR($Resource.LeaveRequestApp, 'app/css/bootstrap.min.css')}"></link>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/underscore-min.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/moment.min.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/jquery-2.0.3.min.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular.min.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular-ui-bootstrap.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/application.js')}"></script>
+        <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/controllers/mainCtrl.js')}"></script>
+        <title>Leave Requests</title>
+    </head>
+
+    <body ng-app="leave.requests">
+        <div class="container" ng-controller="mainCtrl">
+            <div class="page-header text-center">
+              <h1>Leave Requests</h1>
+            </div>
+            <div class="text-center">
+            </div>
+        </div>
+    </body>
+</apex:page>
