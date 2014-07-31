@@ -1,1 +1,1 @@
-var app = angular.module('leave.requests', []);
+var app = angular.module('leave.requests', ['sfr']);

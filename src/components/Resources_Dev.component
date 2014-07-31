@@ -5,6 +5,7 @@
     <script src="https://localhost:8000/app/lib/jquery-2.0.3.min.js"></script>
     <script src="https://localhost:8000/app/lib/angular.min.js"></script>
     <script src="https://localhost:8000/app/lib/angular-ui-bootstrap.js"></script>
+    <script src="https://localhost:8000/app/lib/ngForce.min.js"></script>
     <script src="https://localhost:8000/app/application.js"></script>
     <script src="https://localhost:8000/app/controllers/mainCtrl.js"></script>
 </apex:component>
