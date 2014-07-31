@@ -1,1 +1,1 @@
-var app = angular.module('leave.requests', ['sfr']);
+var app = angular.module('leave.requests', ['ngForce']);
