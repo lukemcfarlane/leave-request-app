@@ -1,0 +1,10 @@
+<apex:component>
+    <link rel="stylesheet" href="https://localhost:8000/app/css/bootstrap.min.css"></link>
+    <script src="https://localhost:8000/app/lib/underscore-min.js"></script>
+    <script src="https://localhost:8000/app/lib/moment.min.js"></script>
+    <script src="https://localhost:8000/app/lib/jquery-2.0.3.min.js"></script>
+    <script src="https://localhost:8000/app/lib/angular.min.js"></script>
+    <script src="https://localhost:8000/app/lib/angular-ui-bootstrap.js"></script>
+    <script src="https://localhost:8000/app/application.js"></script>
+    <script src="https://localhost:8000/app/controllers/mainCtrl.js"></script>
+</apex:component>
