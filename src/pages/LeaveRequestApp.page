@@ -21,9 +21,26 @@
                     <small ng-if="isLoading">Loading...</small>
                 </div>
             </div>
-            <div ng-repeat="req in allLeaveRequests">
-                {{ req.Id }}
-            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Reason</th>
+                        <th>Approved</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="req in allLeaveRequests">
+                        <td>{{ req.Start_Date__c }}</td>
+                        <td>{{ req.End_Date__c }}</td>
+                        <td>{{ req.Reason__c }}</td>
+                        <td>{{ req.Approved__c }}</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </apex:page>
