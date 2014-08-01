@@ -36,7 +36,9 @@
                         <td>{{ req.Start_Date__c | date:'dd/MM/yyyy' }}</td>
                         <td>{{ req.End_Date__c | date:'dd/MM/yyyy' }}</td>
                         <td>{{ req.Reason__c }}</td>
-                        <td>{{ req.Approved__c }}</td>
+                        <td>
+                            <i output-checkbox="true" value="{{ req.Approved__c }}"/>
+                        </td>
                         <td></td>
                     </tr>
                 </tbody>

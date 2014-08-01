@@ -1,7 +1,7 @@
 <apex:component>
-    <link rel="stylesheet" href="https://localhost:8000/app/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
 
-    <!-- <script src="https://localhost:8000/app/lib/underscore-min.js"></script> -->
+    <!-- Libraries -->
     <script src="https://localhost:8000/app/lib/moment.min.js"></script>
     <script src="https://localhost:8000/app/lib/jquery-2.0.3.min.js"></script>
     <script src="https://localhost:8000/app/lib/angular.min.js"></script>
@@ -10,12 +10,21 @@
     <script src="https://localhost:8000/app/lib/safeApply.js"></script>
     <script src="https://localhost:8000/app/lib/restangular.js"></script>
 
+    <!-- ngForce -->
     <script src="https://localhost:8000/app/lib/ngforce/ngforce.js"></script>
     <script src="https://localhost:8000/app/lib/ngforce/ngforce-encodedUriQuery.js"></script>
     <script src="https://localhost:8000/app/lib/ngforce/ngforce-sfr.js"></script>
     <script src="https://localhost:8000/app/lib/ngforce/ngforce-sfrquery.js"></script>
     
+    <!-- App -->
     <script src="https://localhost:8000/app/application.js"></script>
+
+    <!-- Services -->
     <script src="https://localhost:8000/app/services/leaveRequestService.js"></script>
+
+    <!-- Directives -->
+    <script src="https://localhost:8000/app/directives/outputCheckbox.js"></script>
+
+    <!-- Controllers-->
     <script src="https://localhost:8000/app/controllers/mainCtrl.js"></script>
 </apex:component>

@@ -1,6 +1,7 @@
 <apex:component>
-    <link rel="stylesheet" href="{!URLFOR($Resource.LeaveRequestApp, 'app/css/bootstrap.min.css')}"></link>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
 
+    <!-- Libraries -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/moment.min.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/jquery-2.0.3.min.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular.min.js')}"></script>
@@ -9,12 +10,22 @@
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/safeApply.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/restangular.js')}"></script>
 
+    <!-- ngForce -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-encodedUriQuery.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfr.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfrquery.js')}"></script>
     
+    <!-- App -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/application.js')}"></script>
+
+    <!-- Services-->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/services/leaveRequestService.js')}"></script>
+
+    <!-- Directives -->
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/directives/outputCheckbox.js')}"></script>
+
+    <!-- Controllers -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/controllers/mainCtrl.js')}"></script>
+
 </apex:component>
