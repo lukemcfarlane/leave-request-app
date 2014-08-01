@@ -47,6 +47,13 @@
                     </table>
                 </div>
                 <div class="panel-footer">
+                    <div class="row">
+                        <div class="pull-right" style="margin-right:10px">
+                            <button class="btn btn-default">
+                                New Leave Request            
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
