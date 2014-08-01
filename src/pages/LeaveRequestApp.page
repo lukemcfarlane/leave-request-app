@@ -16,33 +16,39 @@
             <div class="page-header text-center">
               <h1>Leave Requests</h1>
             </div>
-            <div class="text-center">
-                <div class="text-center">
-                    <small ng-if="isLoading">Loading...</small>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="text-center">
+                        <small ng-if="isLoading">Loading...</small>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Start Date</th>
+                                <th>End Date</th>
+                                <th>Reason</th>
+                                <th>Approved</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="req in allLeaveRequests">
+                                <td>{{ req.Start_Date__c | date:'dd/MM/yyyy' }}</td>
+                                <td>{{ req.End_Date__c | date:'dd/MM/yyyy' }}</td>
+                                <td>{{ req.Reason__c }}</td>
+                                <td>
+                                    <i output-checkbox="true" value="{{ req.Approved__c }}"/>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-footer">
                 </div>
             </div>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Start Date</th>
-                        <th>End Date</th>
-                        <th>Reason</th>
-                        <th>Approved</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="req in allLeaveRequests">
-                        <td>{{ req.Start_Date__c | date:'dd/MM/yyyy' }}</td>
-                        <td>{{ req.End_Date__c | date:'dd/MM/yyyy' }}</td>
-                        <td>{{ req.Reason__c }}</td>
-                        <td>
-                            <i output-checkbox="true" value="{{ req.Approved__c }}"/>
-                        </td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
     </body>
 </apex:page>
