@@ -1,11 +1,20 @@
 <apex:component>
     <link rel="stylesheet" href="{!URLFOR($Resource.LeaveRequestApp, 'app/css/bootstrap.min.css')}"></link>
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/underscore-min.js')}"></script>
+
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/moment.min.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/jquery-2.0.3.min.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular.min.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular-ui-bootstrap.js')}"></script>
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngForce.min.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/lo-dash.compat.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/safeApply.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/restangular.js')}"></script>
+
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-encodedUriQuery.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfr.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfrquery.js')}"></script>
+    
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/application.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/services/leaveRequestService.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/controllers/mainCtrl.js')}"></script>
 </apex:component>

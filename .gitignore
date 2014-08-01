@@ -19,4 +19,5 @@ apex-scripts/*
 
 #Other exclusions
 *.pem
-
+*.csr
+*.key*
