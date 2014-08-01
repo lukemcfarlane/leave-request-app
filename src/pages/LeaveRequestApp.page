@@ -17,6 +17,12 @@
               <h1>Leave Requests</h1>
             </div>
             <div class="text-center">
+                <div class="text-center">
+                    <small ng-if="isLoading">Loading...</small>
+                </div>
+            </div>
+            <div ng-repeat="req in allLeaveRequests">
+                {{ req.Id }}
             </div>
         </div>
     </body>
