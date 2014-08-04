@@ -64,7 +64,7 @@
                 </div>
                 <div class="pull-right">
                     <img ng-if="isSaving" class="sml-loading-spinner" src="{!URLFOR($Resource.LeaveRequestApp, 'app/style/images/select2-spinner.gif')}"/>
-                    <a ng-disabled="isSaving" ng-click="saveAndClose()" class="btn btn-success">Generate</a>
+                    <a ng-disabled="isSaving" ng-click="saveAndClose()" class="btn btn-success">Save</a>
                 </div>
             </div>
         </div>
