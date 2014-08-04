@@ -50,10 +50,10 @@
                             <input ng-model="newLeaveReq.End_Date__c" type="date" class="form-control"></input>
                         </div>
                         <div class="form-group">
-                            <label ng-model="newLeaveReq.Reason__c" for="startDate" class="col-sm-2 control-label">
+                            <label for="startDate" class="col-sm-2 control-label">
                                 Reason
                             </label>
-                            <input type="text" class="form-control"></input>
+                            <input ng-model="newLeaveReq.Reason__c" type="text" class="form-control"></input>
                         </div>
                     </form>
                 </div>

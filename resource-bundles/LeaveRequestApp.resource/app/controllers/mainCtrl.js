@@ -29,7 +29,7 @@ app.controller('mainCtrl', ['$scope', '$modal', 'LeaveRequestService',
             });
 
             modalInstance.result.then(function(newRequest) {
-
+                $scope.allLeaveRequests.push(newRequest);
             });
         };
 	}
