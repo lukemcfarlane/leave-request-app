@@ -1,3 +1,9 @@
+/**
+ * This is the controller for NewLeaveRequest_Modal Visualforce page.
+ *
+ * @author  https://github.com/lukemcfarlane
+ * @date    Aug 2014
+ */
 app.controller('newLeaveRequestModalCtrl', function($scope, $modalInstance, LeaveRequestService) {
     $scope.isSaving = false;
     $scope.newLeaveReq = {};
