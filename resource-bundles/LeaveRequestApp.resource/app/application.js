@@ -1,1 +1,1 @@
-var app = angular.module('leave.requests', ['ngForce', 'ui.bootstrap' ]);
+var app = angular.module('leave.requests', ['ngForce', 'ui', 'ui.bootstrap' ]);

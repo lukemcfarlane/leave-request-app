@@ -5,8 +5,8 @@
  * @author  https://github.com/lukemcfarlane
  * @date    July 2014
  */
-app.controller('mainCtrl', ['$scope', 'LeaveRequestService',
-	function($scope, LeaveRequestService) {
+app.controller('mainCtrl', ['$scope', '$modal', 'LeaveRequestService', 
+	function($scope, $modal, LeaveRequestService) {
 		$scope.isLoading = false;
 		$scope.allLeaveRequests = [];
 
@@ -20,5 +20,17 @@ app.controller('mainCtrl', ['$scope', 'LeaveRequestService',
 		}
 
 		init();
+
+        $scope.showNewLeaveRequestModal = function() {
+            var modalInstance = $modal.open({
+                templateUrl: '/apex/NewLeaveRequest_Modal',
+                controller: 'newLeaveRequestModalCtrl',
+                size: 'lg'
+            });
+
+            modalInstance.result.then(function(newRequest) {
+
+            });
+        };
 	}
 ]);

@@ -9,6 +9,7 @@
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/lo-dash.compat.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/safeApply.js')}"></script>
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/restangular.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular-ui.min.js')}"></script>
 
     <!-- ngForce -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce.js')}"></script>
@@ -27,5 +28,6 @@
 
     <!-- Controllers -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/controllers/mainCtrl.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/controllers/newLeaveRequestModalCtrl.js')}"></script>
 
 </apex:component>
