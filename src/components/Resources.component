@@ -12,10 +12,10 @@
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/angular-ui.min.js')}"></script>
 
     <!-- ngForce -->
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce.js')}"></script>
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-encodedUriQuery.js')}"></script>
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfr.js')}"></script>
-    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngforce-sfrquery.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngForce.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngForce-encodedUriQuery.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngForce-sfr.js')}"></script>
+    <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/lib/ngforce/ngForce-sfrquery.js')}"></script>
     
     <!-- App -->
     <script src="{!URLFOR($Resource.LeaveRequestApp, 'app/application.js')}"></script>
